@@ -1,0 +1,24 @@
+{
+  "name": "file-recovery",
+  "version": "1.0.0",
+  "description": "Standalone CLI tool to recover encrypted files from Walrus using 12-word recovery phrase",
+  "type": "module",
+  "scripts": {
+    "recover": "tsx src/index.ts"
+  },
+  "keywords": ["recovery", "blockchain", "encryption", "walrus"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mysten/sui": "^1.45.2",
+    "@noble/hashes": "^2.0.1",
+    "@scure/bip39": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
