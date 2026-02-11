@@ -1,2 +1,4 @@
-# node dependencies
 node_modules/
+# recovered files (user output)
+recovered/
+.env
